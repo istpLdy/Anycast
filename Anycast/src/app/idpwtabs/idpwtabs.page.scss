@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(../../assets/font/NotoSansKR-Regular.otf);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+* {
+  font-family:'Noto Sans KR', sans-serif;
+}
+ion-tab-bar{
+    margin-top: 71px;
+    height: 60px;
+}
+ion-tabs {
+  display: flex;
+  max-width: 100%;
+  background-color: #eaeaea;
+  color: #000000;
+  // font-family:'Noto Sans KR', sans-serif;
+  }
+  ion-toolbar{
+    background-color: #fff;
+  }
+.tab-selected {
+  background-color: #fff !important;
+  border-top: 3px solid #797979;
+  border-left: 3px solid #797979;
+  border-right: 3px solid #797979;
+}
+ion-tab-bar {
+  border-bottom: none;
+}
+
+.tab1_ {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.tab2_ {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+  .backimg {
+    width:15px;
+    height:25px;
+    position:absolute;
+    margin-left:20px;
+  }
+  .back{
+    font-size:23px;
+    text-align: center;
+    margin-top:20px;
+    margin-left:55px;
+  }
+  .idpasswdtitle {
+    font-size:26px;
+    text-align:center;
+    margin-top:20px;
+  }

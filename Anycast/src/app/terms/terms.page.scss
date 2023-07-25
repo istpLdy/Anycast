@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(../../assets/font/NotoSansKR-Regular.otf);
+  }
+a{
+    text-decoration: none;
+    color: #000000;
+}
+  html {
+    display: flex;
+    background-color: white;
+    color: #000000;
+    font-family:'Noto Sans KR', sans-serif;
+  }
+  .backimg {
+    width:15px;
+    height:25px;
+    position:absolute;
+    margin-left:20px;
+  }
+  .back{
+    font-size:17px;
+    text-align: left;
+    margin-top:20px;
+    margin-left:55px;
+    font-weight: 600;
+  }
+  .agreetitle {
+    font-size:26px;
+    text-align:center;
+    margin-top:50px;
+  }
+  .agreetitle2 {
+    font-size:15px;
+    text-align:center;
+    margin-top:50px;
+  }
+  input[type="checkbox"] {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    margin-top: 35px;
+    border: 2px solid #FF9090;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  input[type="checkbox"]:checked {
+    background: #FF9090;
+    border: none;
+  }
+  label[for="agree1"] {
+    position: relative;
+    top: -2.5px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  ion-checkbox {
+    --size: 20px;
+    --checkbox-background-checked: #FF9090;
+    margin-top: 60px;
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 10px;
+    border: 2px solid #FF9090;
+  }
+  .agree1 {
+    float: left;
+  }
+  .agree1_line {
+    margin-top: 10px;
+    border-bottom: 1.5px solid #000000;
+  }
+  .detail1{
+    display: flex;
+    float: right;
+    margin: auto;
+    font-size: 12px;
+    color: #727171;
+    // margin-left: 65px;
+  }
+  .agree2 {
+    float: left;
+    margin-left: 10px;
+  }
+  .detail2{
+    display: flex;
+    float: right;
+    margin: auto;
+    font-size: 12px;
+    color: #727171;
+    // margin-left: 14px;
+  }
+  .agree3 {
+    float: left;
+    margin-left: 10px;
+  }
+  // ion-accordion-group {
+  //   width: 300px;
+  //   margin: auto;
+  //   text-align: center;
+  // }
+  ion-button {
+    width: auto;
+    height: 41px;
+    display: block;
+    text-align: center;
+    background-color: #0084ff;
+    color: #ffffff;
+    font-size:18px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top:100px;
+    border: none;
+  }
+  .no {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    text-decoration-line: underline;
+    color: #8f8f8f;
+  }
+  body {
+    display: flex;
+    // height: 100vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #container {
+    width: 80%;
+    box-shadow: 0 0 20px #e5e5e5;
+    padding: 0 40px;
+  }
+  input[id*="answer"] {
+    display: none;
+  }
+  input[id*="answer"] + label {
+    font-size:14px;
+    display: flex;
+    line-height: 2em;
+    margin: auto;
+    text-align: left !important;
+    // justify-content: space-between;
+    justify-content: flex-start;
+    position: relative;
+    padding: 5px;
+    border-bottom: 1px solid #d5d5d5;
+    cursor:pointer;
+  }
+  input[id*="answer"] + label i {
+    position: absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+    transition: all .3s;
+  }
+  input[id*="answer"] + label + div{
+    overflow: hidden;
+    height: 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+  }
+  input[id*="answer"] + label + div p {
+    display: inline-block;
+    padding: 20px 0;    
+  }
+  input[id*="answer"]:checked + label + div {
+    height: 150px;
+    border-bottom: 2px solid #d5d5d5;
+  }
+  input[id*="answer"]:checked + label i {
+    transform: rotate(180deg);
+  }

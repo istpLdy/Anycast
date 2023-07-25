@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(../../assets/font/NotoSansKR-Regular.otf);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+    html {
+    display: flex;
+    background-color: white;
+    color: #000000;
+    font-family:'Noto Sans KR', sans-serif;
+    }
+    .backimg {
+    width:15px;
+    height:25px;
+    position:absolute;
+    margin-left:20px;
+    }
+    .back{
+    font-size:17px;
+    text-align: left;
+    margin-top:20px;
+    margin-left:55px;
+    font-weight: 600;
+    }
+    .profileimg {
+      text-align: center;
+    }
+    .userimg {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    }
+    .cameraimg {
+        position: relative;
+        top: 130px;
+        left: 60px;
+        width: 50px;
+        height: 50px;
+    }
+    .profileedit {
+      position: absolute;
+      top: 250px;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
+    .name {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .pencilimg {
+      position: absolute;
+      left: 60px;
+      bottom: 20px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+    .id {
+      position: inherit;
+      left: 50%;
+      top: 45px;
+      font-size: 15px;
+    }
+    .line1 {
+      position: relative;
+      top: 220px;
+      border-bottom: 1.5px solid #000000;
+    }
+    .emailbutton {
+      position: relative;
+      background-color: #f0f0f0;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      top: 320px;
+      cursor: pointer;
+    }
+    .email {
+      float: left;
+      font-size: 15px;
+    }
+    .address {
+      position: relative;
+      float: right;
+      right: 20px;
+      font-size: 15px;
+      color: #787878;
+    }
+    .nextpng1 {
+      position: relative;
+      float: right;
+      left: 170px;
+      width: 12px;
+      height: 20px;
+    }
+    .line2 {
+      position: relative;
+      top: 320px;
+      border-bottom: 1.5px solid #dbdbdb;
+    }
+    .passwdbutton {
+      position: relative;
+      background-color: #f0f0f0;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      top: 320px;
+      cursor: pointer;
+    }
+    .passwd {
+      float: left;
+      font-size: 15px;
+    }
+    .nextpng2 {
+      position: relative;
+      float: right;
+      left: 10px;
+      width: 12px;
+      height: 20px;
+    }
+    .withdrawalbutton {
+      // position: relative;
+      background-color: #f0f0f0;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+      border-radius: 8px;
+      margin-top: 400px;
+      cursor: pointer;
+    }
+    .withdrawal {
+      float: left;
+      font-size: 15px;
+      color: red;
+    }
+    .nextpng3 {
+      position: relative;
+      float: right;
+      left: 10px;
+      width: 12px;
+      height: 20px;
+    }
+
+
+    #container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #000000;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }

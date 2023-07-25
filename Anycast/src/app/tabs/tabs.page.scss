@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(../../assets/font/NotoSansKR-Regular.otf);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.Anycastimg {
+    width: 100px;
+    height: 30px;
+}
+ion-toolbar{
+    background-color: #9FF9FF;
+}
+ion-tabs {
+display: flex;
+max-width: 100%;
+background-color: white;
+color: #000000;
+font-family:'Noto Sans KR', sans-serif;
+}
+ion-tab-bar {
+    height: 60px;
+}
+.tab-selected {
+    background-color: #9FF9FF !important;
+
+}
+.homeimg {
+    width: 38px;
+    height: 33px;
+}
+.tab1_ {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.tab2_ {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.videoimg {
+    width: 35px;
+    height: 30px;
+}
+.ximg {
+    width: 20px;
+    height: 20px;
+    float: right;
+    cursor: pointer;
+}
+.menu {
+    --width:80%;
+}
+.profileimg {
+    margin-left: 15px;
+    width: 65px;
+    height: 65px;
+    margin-bottom: -10px;
+}
+.profilename {
+    font-size: 17px;
+    display: inline;
+    margin-left: 20px;
+}
+.profileID {
+    font-size: 15px;
+    margin-left: 103px;
+}
+.mypage {
+    background-color: #DFFBFD;
+    padding: 18px 10px;
+    border-radius: 8px;
+    margin-top: 90px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.mypageimg {
+    width: 26px;
+    height: 26px;
+}
+.mypagetitle {
+    display: inline;
+}
+.device{
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.deviceimg {
+    width: 25px;
+    height: 40px;
+}
+.devicetitle {
+    display: inline;
+}
+.logout{
+    margin-top: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logoutimg {
+    width: 38px;
+    height: 38px;
+}
+.logouttitle {
+    display: inline;
+}

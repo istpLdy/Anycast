@@ -1,0 +1,51 @@
+<ion-header style="z-index: 0;">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-item>
+        <ion-label>
+          <ion-icon size="large" name="bluetooth"></ion-icon>
+        </ion-label>
+        <ion-toggle (ionChange)="toggleBle($event)" [checked]="ble"></ion-toggle>
+      </ion-item>
+    </ion-buttons>
+    <ion-title>기기등록</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col>
+        <ion-button *ngIf="scanText==''" (click)="startScanning()"
+        style="width:100%;">
+          <ion-icon size="large" name="refresh-circle"></ion-icon>
+          기기 검색
+        </ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col style="text-align: center;">
+        {{scanText}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-list *ngIf="connectedDevices.length > 0">
+    <ion-item-divider>
+      연결된 기기 목록
+    </ion-item-divider>
+    <ion-item *ngFor="let connectedDevice of connectedDevices">
+      <ion-label>{{ connectedDevice.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item *ngFor="let d of devices;let i = index;">
+      <b style="color: #000;">{{d.localName}}</b>
+      <ion-button (click)="connect(d,i)" *ngIf="!d.connection"
+      slot="end">connect</ion-button>
+      <ion-button (click)="disconnect(d,i)" *ngIf="d.connection"
+      slot="end">disconnect</ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(../../assets/font/NotoSansKR-Regular.otf);
+  }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  html {
+    display: flex;
+    background-color: white;
+    color: #000000;
+    font-family:'Noto Sans KR', sans-serif !important;
+  }
+  .backimg {
+    width:15px;
+    height:25px;
+    position:absolute;
+    margin-left:20px;
+  }
+  .back{
+    font-size:17px;
+    text-align: left;
+    margin-top:10px;
+    margin-left:55px;
+    font-weight: 600;
+  }
+  .idpasswdtitle {
+    font-size:26px;
+    text-align:center;
+    margin-top:20px;
+  }
+  ion-segment {
+    --background: #fff;
+    border-top:1px solid #797979;
+    border-left:1px solid #797979;
+    border-right:1px solid #797979;
+  }
+  ion-segment-button {
+    --indicator-color: #797979;
+    color: #000;
+    --background: #EAEAEA;
+  }
+  
+  /* Material Design styles */
+  ion-segment-button.md {
+    --color: #000;
+    --background-color-checked: #ffffff;
+    --indicator-height: 4px;
+  }
+  
+  /* iOS styles */
+  ion-segment-button.ios {
+    --color: #000;
+    --color-checked: #fff;
+    --border-radius: 20px;
+  }
+  .name{
+    font-weight: 500;
+    font-size:17px;
+    margin-top:65px;
+    margin-left:5px;
+  }
+  .email {
+    font-weight: 500;
+    font-size:17px;
+    margin-top:40px;
+    margin-left:5px;
+  }
+  .custom {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #7d7d7d;
+    padding-left: 48px;
+    margin-top:-5px;
+    text-align: center !important;
+    caret-color:#00eeff;
+  }
+  .nameimg {
+    width:30px;
+    height:30px;
+    position:absolute;
+    margin-top:5px;
+    margin-left:9px;
+  }
+  .emailimg {
+    width:35px;
+    height:28px;
+    position:absolute;
+    margin:8px 0 0 9px;
+  }
+  ion-button {
+    width: 230px;
+    height: 41px;
+    background-color: #0084ff;
+    color: #ffffff;
+    font-size:18px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top:55px;
+    margin-bottom:35px;
+    display: block;
+    text-align: center;
+    border: none;
+  }
+  .additional-links a {
+    color: #8F8F8F;
+    text-decoration-line: underline;
+  }

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url(../../assets/font/NotoSansKR-Regular.otf);
+}
+html {
+  background-color: white;
+  color: #000000;
+  font-family:'Noto Sans KR', sans-serif;
+}
+  .custom {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #7d7d7d;
+    padding-left: 48px;
+    margin-top:-5px;
+    text-align: center !important;
+    caret-color:#00eeff;
+  }
+.id {
+  font-weight: 500;
+  font-size:19px;
+  margin-top:25px;
+  margin-left:5px;
+}
+.idimg {
+  width:30px;
+  height:30px;
+  position:absolute;
+  margin-top:5px;
+  margin-left:9px;
+}
+.passwd {
+  font-weight: 500;
+  font-size:19px;
+  margin-top:25px;
+  margin-left:5px;
+}
+.passwdimg {
+  width:30px;
+  height:30px;
+  position:absolute;
+  margin-top:5px;
+  margin-left:9px;
+}
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin-top: 35px;
+  border: 1px solid #999;
+  appearance: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+input[type="checkbox"]:checked {
+  background: #FF9090;
+  border: none;
+}
+label[for="yn"] {
+  position: relative;
+  top: -1.5px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+// .login_yn {
+//   display: inline;
+//   font-size: 17px;
+// }
+
+
+.logo-container img {
+  width: 50%;
+  max-width: 150px; /* 로고 이미지의 최대 너비를 설정합니다. 필요에 따라 조정할 수 있습니다. */
+}
+
+
+  
+  /* 로그인 폼 스타일 */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  // .login-form ion-input {
+  //   width: 80%;
+  //   max-width: 400px; /* 입력 필드의 최대 너비를 설정합니다. 필요에 따라 조정할 수 있습니다. */
+  //   margin-top: 10px;
+  // }
+  
+  /* 추가 링크 정렬 */
+  .additional-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .additional-links a {
+    margin: auto;
+    color: #8F8F8F;
+  }
+
+  ion-button {
+    height: 41px;
+    background-color: #0084ff;
+    color: #ffffff;
+    font-size:18px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top:40px;
+    display: block;
+    text-align: center;
+    border: none;
+
+  }
+
+@media (orientation: portrait) {
+	//* 로고 이미지 크기 및 정렬 */
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+  }
+}
+
+@media (orientation: landscape) {
+	//* 로고 이미지 크기 및 정렬 */
+    .logo-container {
+        display: flex;
+        justify-content: center;
+  }
+}

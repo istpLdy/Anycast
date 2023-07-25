@@ -1,0 +1,7 @@
+{
+  "name": "Anycast",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

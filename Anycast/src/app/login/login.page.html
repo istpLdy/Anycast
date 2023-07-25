@@ -1,0 +1,36 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<ion-content>
+  <div class="logo-container">
+    <img src="../../assets/anycast_logo.png" alt="로고 이미지">
+  </div>
+  
+  <div class="login-form">
+    <div class="col-9">
+      <p class='id'>
+      아이디
+      </p>
+      <img src="../../assets/whiteuser.png" class="idimg">
+      <input type="text" class="form-control form-control-lg custom" [(ngModel)]="id">
+      <!--ngModel : 특정 변수와 html 파일에서의 값을 이어주는 역할-->
+    </div>
+    <div class="col-9">
+      <p class='passwd'>
+      비밀번호
+      </p>
+      <img src="../../assets/password.png" class="passwdimg">
+      <input type="password" class="form-control form-control-lg custom" [(ngModel)]="passwd">
+    </div>
+    <div class="col-9">
+      <input type="checkbox"><label for="yn">로그인 상태 유지</label>
+    </div>  
+    <div class="col-9">
+      <ion-button (click)="onLoginButtonClick()">로그인</ion-button>
+    </div>
+    
+    
+    <div class="additional-links">
+      <a href="terms" style="margin-top:30px;">회원 가입</a>
+      <a href="idpwtabs" style="margin-top:25px;margin-bottom:20px;">아이디 찾기 · 비밀번호 재설정</a>
+    </div>
+  </div>
+</ion-content>
